@@ -7,7 +7,7 @@ export default function Home() {
       <Header />
         <div>
             <div
-              className="min-h-screen bg-cover bg-center w-full"
+              className="min-h-screen bg-cover bg-center w-full z-0"
               style={{ backgroundImage: "url('/images/carrousel1.png')" }}
             >
             </div>
@@ -36,6 +36,56 @@ export default function Home() {
                 <button className="border px-3 py-2 rounded-full text-white font-bold hover:bg-white hover:text-blue-700">
                     Ver Proyectos
                 </button>
+            </div>
+        </div>
+        <div className="flex justify-around bg-homecolor py-5">
+            <div className="max-w-xs rounded-3xl overflow-hidden shadow-2xl hover:bg-white">
+                <Image src="/images/card.jpg" alt="fondo" width={400} height={50}/>
+                <div className="px-10 py-4">
+                    <h1 className="font-bold text-xl text-white pb-3 hover:text-homecolor">Edificaciones de viviendas tradicional</h1>
+                </div>
+                <div className="flex justify-end items-end py-4 px-10">
+                    <a href="#" className="flex items-center">
+                      <h1 className="px-4 text-white font-bold hover:text-homecolor">Ver más</h1>
+                      <i className="ri-add-fill bg-white rounded-3xl px-1 hover:bg-cyan-400 hover:text-white"></i>
+                    </a>
+                </div>
+            </div>
+            <div className="max-w-xs rounded-3xl overflow-hidden shadow-2xl hover:bg-white">
+                <Image src="/images/card.jpg" alt="fondo" width={400} height={50}/>
+                <div className="px-10 py-4">
+                    <h1 className="font-bold text-xl text-white pb-3 hover:text-homecolor">Edificaciones de viviendas tradicional</h1>
+                </div>
+                <div className="flex justify-end items-end py-4 px-10">
+                    <a href="#" className="flex items-center">
+                      <h1 className="px-4 text-white font-bold hover:text-homecolor">Ver más</h1>
+                      <i className="ri-add-fill bg-white rounded-3xl px-1 hover:bg-cyan-400 hover:text-white"></i>
+                    </a>
+                </div>
+            </div>
+            <div className="max-w-xs rounded-3xl overflow-hidden shadow-2xl hover:bg-white">
+                <Image src="/images/card.jpg" alt="fondo" width={400} height={50}/>
+                <div className="px-10 py-4">
+                    <h1 className="font-bold text-xl text-white pb-3 hover:text-homecolor">Edificaciones de viviendas tradicional</h1>
+                </div>
+                <div className="flex justify-end items-end py-4 px-10">
+                    <a href="#" className="flex items-center">
+                      <h1 className="px-4 text-white font-bold hover:text-homecolor">Ver más</h1>
+                      <i className="ri-add-fill bg-white rounded-3xl px-1 hover:bg-cyan-400 hover:text-white"></i>
+                    </a>
+                </div>
+            </div>
+            <div className="max-w-xs rounded-3xl overflow-hidden shadow-2xl hover:bg-white">
+                <Image src="/images/card.jpg" alt="fondo" width={400} height={50}/>
+                <div className="px-10 py-4">
+                    <h1 className="font-bold text-xl text-white pb-3 hover:text-homecolor">Edificaciones de viviendas tradicional</h1>
+                </div>
+                <div className="flex justify-end items-end py-4 px-10">
+                    <a href="#" className="flex items-center">
+                      <h1 className="px-4 text-white font-bold hover:text-homecolor">Ver más</h1>
+                      <i className="ri-add-fill bg-white rounded-3xl px-1 hover:bg-cyan-400 hover:text-white"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
