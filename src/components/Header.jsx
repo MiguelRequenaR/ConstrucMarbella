@@ -5,7 +5,7 @@ import 'remixicon/fonts/remixicon.css'
 export default function Header() {
   return (
     <div className='fixed z-10 w-full'>
-        <header className='bg-white'>
+        <header className='bg-white px-10'>
             <nav className='container mx-auto flex justify-between items-center py-3'>
                 <div className='flex items-center'>
                     <Image src="/images/logoCM.png" alt="Logo" 
