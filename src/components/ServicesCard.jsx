@@ -5,7 +5,7 @@ export default function ServicesCard({imageSrc, subTitle}) {
   return (
     <div>
         <div className="flex justify-around bg-homecolor py-5">
-            <div className="max-w-xs rounded-3xl overflow-hidden shadow-2xl duration-200 group hover:bg-white">
+            <div className="w-[300px] rounded-3xl overflow-hidden shadow-2xl duration-200 group hover:bg-white">
                 <Image src={imageSrc} alt="fondo" width={400} height={50}/>
                 <div className="px-10 py-4">
                     <h1 className="font-bold text-xl text-white pb-3 group-hover:text-homecolor">

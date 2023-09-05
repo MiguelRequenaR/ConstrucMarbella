@@ -3,6 +3,7 @@ import Image from "next/image";
 import edificacionesImage from "../card.jpg";
 import ServicesCard from "../components/ServicesCard";
 import { About } from "../components/About";
+import { CardManagement } from "../components/CardManagement";
 
 export default function Home() {
   return (
@@ -48,6 +49,7 @@ export default function Home() {
             </div>
         </div>
         <About/>
+        <CardManagement/>
     </div>
   );
 }
