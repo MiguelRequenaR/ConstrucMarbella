@@ -2,6 +2,7 @@ import Header from "../components/Header";
 import Image from "next/image";
 import edificacionesImage from "../card.jpg";
 import ServicesCard from "../components/ServicesCard";
+import { About } from "../components/About";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
                 <ServicesCard subTitle="Edificaciones de viviendas modernas" imageSrc={edificacionesImage}/>
             </div>
         </div>
+        <About/>
     </div>
   );
 }
