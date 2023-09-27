@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Image from "next/image";
-import edificacionesImage from "../card.jpg";
+import edificacionesImage from "../../public/images/card.jpg";
 import ServicesCard from "../components/ServicesCard";
 import { About } from "../components/About";
 import { CardManagement } from "../components/CardManagement";
@@ -12,7 +12,7 @@ export default function Home() {
         <div>
             <div
               className="min-h-screen bg-cover bg-center w-full z-0"
-              style={{ backgroundImage: "url('/images/carrousel1.png')" }}
+              style={{ backgroundImage: "url(./images/fondo1.jpg)" }}
             >
             </div>
               <div className="container mx-auto absolute inset-0 flex items-center px-40">
