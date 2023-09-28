@@ -16,9 +16,9 @@ export default function Home() {
               initial={{ x: -100 }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
-              className="flex justify-between p-14 px-40"
+              className="lg:flex justify-around p-14  sm:block"
             >    
-              <h1 className="text-3xl text-white font-bold">Conoce los Servicios que tenemos para ti</h1>
+              <h1 className="text-3xl text-white font-bold mb-5">Conoce los Servicios que tenemos para ti</h1>
                 <button className="border px-3 py-2 rounded-full text-white font-bold hover:bg-white hover:text-blue-700">
                     Ver Proyectos
                 </button>
@@ -28,7 +28,7 @@ export default function Home() {
               initial={{ x: 100 }}
               animate={{ x: 0 }}
               transition={{ duration: 1 }}
-              className="flex justify-around"
+              className="lg:flex justify-around sm:block"
             >    
               <ServicesCard subTitle="Edificaciones de viviendas modernas" imageSrc={edificacionesImage}/>
               <ServicesCard subTitle="Edificaciones de viviendas modernas" imageSrc={edificacionesImage}/>
