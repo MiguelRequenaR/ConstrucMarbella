@@ -5,8 +5,8 @@ export const About = () => {
   return (
     <div>
         <div className='bg-homecolor flex items-center px-20 py-10'>
-            {/* <div className='border w-full mx-auto'></div> */}
-            <div className='flex pr-10 animate-marquee'>
+            <div className='border w-[40%] mx-auto'></div>
+            <div className='flex pr-10 font-bold'>
                 <h1 className='text-white px-2 py-4 text-7xl'>
                     NOSOTROS
                 </h1>
