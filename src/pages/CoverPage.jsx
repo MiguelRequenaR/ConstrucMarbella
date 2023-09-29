@@ -2,12 +2,18 @@ import {motion} from 'framer-motion';
 
 const Home = () => {
   return (
-    <div>
-            <div
-              className="min-h-screen bg-cover bg-center w-full z-0"
-              style={{ backgroundImage: "url(./images/fondo1.jpg)" }}
-            >
-            </div>
+    <div>   
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1 }}
+          >
+              <div
+                className="min-h-screen bg-cover bg-center w-full z-0"
+                style={{ backgroundImage: "url(./images/fondo1.jpg)" }}
+              >
+              </div>
+            </motion.div>
             <div className="container mx-auto absolute inset-0 flex items-center lg:px-40 sm:px-10">
 
                 <motion.div

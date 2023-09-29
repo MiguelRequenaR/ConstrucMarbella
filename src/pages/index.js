@@ -4,6 +4,7 @@ import ServicesCard from "../components/ServicesCard";
 import CoverPage from "./CoverPage";
 import { About } from "../components/About";
 import { motion } from "framer-motion";
+import Footer from "../components/Footer";
 
 export default function Home() {
 
@@ -37,6 +38,7 @@ export default function Home() {
             </motion.div>
         </div>
       <About/>
+      <Footer/>
     </div>
   );
 }
